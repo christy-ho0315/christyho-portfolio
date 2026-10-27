@@ -233,6 +233,7 @@ html[lang="zh-TW"] body *{font-family:"ChenYuluoyan","Iansui","Klee One","PingFa
   .work-portal.is-previewing .folder-front{opacity:.08;transform:translateY(8%);filter:blur(2px)}
   .portal-copy{width:min(78vw,320px);margin:auto;padding-top:.85rem;color:var(--ink)}
   .portal-copy p{color:rgba(38,49,40,.7)}
+  .portal-copy>span{display:none}
   .portal-copy h3{font-size:clamp(2rem,10vw,2.8rem);margin:.35rem 0 .75rem}
   .portal-open-desktop{display:none!important}
   .portal-open-mobile{display:inline-block!important}
