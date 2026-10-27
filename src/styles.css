@@ -262,13 +262,13 @@ html[lang="zh-TW"] body *{font-family:"ChenYuluoyan","Iansui","Klee One","PingFa
 @media(max-width:850px){
   .home-intro{cursor:pointer;overflow:hidden;isolation:isolate}
   .mobile-tap-photos{display:block;position:absolute;z-index:1;inset:0;pointer-events:none}
-  .mobile-tap-photos img{position:absolute;width:clamp(105px,31vw,145px);height:clamp(132px,39vw,182px);object-fit:cover;padding:6px 6px 23px;background:var(--paper);box-shadow:0 9px 22px rgba(38,49,40,.2);transform:translate(-50%,-50%) rotate(-5deg);animation:tap-photo-pop .95s cubic-bezier(.2,.8,.2,1) both}
+  .mobile-tap-photos img{position:absolute;width:clamp(105px,31vw,145px);height:clamp(132px,39vw,182px);object-fit:cover;padding:6px 6px 23px;background:var(--paper);box-shadow:0 9px 22px rgba(38,49,40,.2);transform:translate(-50%,-50%) rotate(-5deg);animation:tap-photo-pop 1.7s cubic-bezier(.2,.8,.2,1) both}
   .mobile-tap-photos img:nth-child(2){transform:translate(-50%,-50%) rotate(4deg)}
   .mobile-tap-photos img:nth-child(3){transform:translate(-50%,-50%) rotate(-1deg)}
   .home-intro>.intro-flower,.home-intro>.eyebrow,.home-intro>h1,.home-intro>.home-subhead,.home-intro>.intro-scroll{position:relative;z-index:2}
   .mobile-tap-note{display:block;position:absolute;z-index:3;left:50%;bottom:1.1rem;transform:translateX(-50%) rotate(-2deg);width:max-content;max-width:88vw;margin:0;padding:.4rem .7rem;background:rgba(242,240,227,.8);font:400 1rem/1 "Nanum Pen Script",cursive;color:var(--forest)}
 }
-@keyframes tap-photo-pop{0%{opacity:0;scale:.72}16%{opacity:1;scale:1}58%{opacity:1;scale:1}100%{opacity:0;scale:1.05}}
+@keyframes tap-photo-pop{0%{opacity:0;scale:.72}10%{opacity:1;scale:1}74%{opacity:1;scale:1}100%{opacity:0;scale:1.05}}
 
 /* Keep the Traditional Chinese language label handwritten in either locale. */
 .language-options .language-option-zh{font-family:"ChenYuluoyan","Iansui","Klee One","PingFang TC","Microsoft JhengHei",cursive;font-weight:400;letter-spacing:.04em}

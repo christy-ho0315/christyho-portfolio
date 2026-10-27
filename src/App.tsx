@@ -175,7 +175,7 @@ function Hero({ onNavigate }: { onNavigate: (to: string) => void }) {
     const timer = window.setTimeout(() => {
       setTapPhotos((current) => current.filter((photo) => photo.id !== id));
       tapPhotoTimers.current = tapPhotoTimers.current.filter((item) => item !== timer);
-    }, 950);
+    }, 1700);
     tapPhotoTimers.current.push(timer);
   };
   return (
